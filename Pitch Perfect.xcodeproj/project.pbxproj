@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D39A6552255065EE0032FFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BDD1C52549D082008F11FB /* Main.storyboard */; };
+		D39A65542550B0670032FFF2 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A65532550B0670032FFF2 /* PlaySoundsViewController.swift */; };
 		D3BDD1C22549D082008F11FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD1C12549D082008F11FB /* AppDelegate.swift */; };
 		D3BDD1C42549D082008F11FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD1C32549D082008F11FB /* ViewController.swift */; };
 		D3BDD1C92549D086008F11FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BDD1C82549D086008F11FB /* Assets.xcassets */; };
 		D3BDD1CC2549D086008F11FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BDD1CA2549D086008F11FB /* LaunchScreen.storyboard */; };
 		D3BDD1D72549D086008F11FB /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD1D62549D086008F11FB /* Pitch_PerfectTests.swift */; };
 		D3BDD1E22549D086008F11FB /* Pitch_PerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD1E12549D086008F11FB /* Pitch_PerfectUITests.swift */; };
+		D3DBDE0F2550D3C90062CBD2 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DBDE0E2550D3C80062CBD2 /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D39A65532550B0670032FFF2 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		D3BDD1BE2549D082008F11FB /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BDD1C12549D082008F11FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3BDD1C32549D082008F11FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		D3BDD1DD2549D086008F11FB /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BDD1E12549D086008F11FB /* Pitch_PerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectUITests.swift; sourceTree = "<group>"; };
 		D3BDD1E32549D086008F11FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DBDE0E2550D3C80062CBD2 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D3BDD1C82549D086008F11FB /* Assets.xcassets */,
 				D3BDD1CA2549D086008F11FB /* LaunchScreen.storyboard */,
 				D3BDD1CD2549D086008F11FB /* Info.plist */,
+				D39A65532550B0670032FFF2 /* PlaySoundsViewController.swift */,
+				D3DBDE0E2550D3C80062CBD2 /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = "Pitch Perfect";
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BDD1C42549D082008F11FB /* ViewController.swift in Sources */,
+				D39A65542550B0670032FFF2 /* PlaySoundsViewController.swift in Sources */,
 				D3BDD1C22549D082008F11FB /* AppDelegate.swift in Sources */,
+				D3DBDE0F2550D3C90062CBD2 /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
