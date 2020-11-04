@@ -36,7 +36,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
 
     @IBAction func recordAudio(_ sender: Any) {
         print("Record button is pressed")
-        recordingLabel.text = "Recording..."
+        recordingLabel.text = "Recording audio..."
         stopButton.isEnabled = true
         recordButton.isEnabled = false
         
